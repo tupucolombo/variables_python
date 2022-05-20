@@ -17,6 +17,13 @@ print('Ingrese palabra 2:')
 palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
-# De la segunda palabra tome las primeras dos letras, utilice el operador :
+caracter_inicial = palabra_1 [0]
+print (caracter_inicial)
+#De la segunda palabra tome las primeras dos letras, utilice el operador :
+sub_tex = palabra_2 [0:1]
+print (sub_tex)
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+sub_tex = palabra_2 [0+1]
+print (sub_tex)
+
